@@ -360,7 +360,7 @@ in
       services.power-profiles-daemon.enable = mkDefault true;
       services.gnome.at-spi2-core.enable = true;
       services.gnome.evolution-data-server.enable = true;
-      services.gnome.gnome-keyring.enable = true;
+      services.gnome.gnome-keyring.enable = mkDefault true;
       services.gnome.gnome-online-accounts.enable = mkDefault true;
       services.gnome.gnome-online-miners.enable = true;
       services.gnome.tracker-miners.enable = mkDefault true;
